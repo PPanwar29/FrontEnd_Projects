@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #1137ca;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+    background-color: #1137ca;
+}
+
+@font-face {
+    font-family: a;
+    src: url(./assest/jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./assest/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./assest/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 nav {
+    width: 100%;
+    height: 7vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page1>nav>img {
+    width: 15%;
+    height: 9vw;
+    object-fit: cover;
+}
+
+#right-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 4vw;
+    padding-right: 5vw;
+    gap: 1vw;;
+}
+
+#right-nav button {
+    font-size: 1vw;
+    padding: .6vw 1.6vw;
+    background-color: #0b48ed;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-family: a;
+}
+
+#bottom-page1 {
+    position: absolute;
+    bottom: 24%;
+    left: 10%;
+}
+
+#bottom-page1 h1 {
+    font-size: 6vw;
+    font-family: a;
+    line-height: 7vw;
+    color: white;
+    font-weight: 100;
+}
+
+#bottom-page1-inner {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 2.5vw;
+}
+
+#bottom-page1-inner h3 {
+    font-family: a;
+    font-size: 21px;
+    width: 53%;
+    color: white;
+    font-weight: 100;
+}
+
+#bottom-page1-inner button {
+    font-family: c;
+    font-size: 1vw;
+    color: #0b48ed;
+    border-radius: 50px;
+    padding: .6vw 2vw;
+    border: none;
+}
+
+
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1137ca;
+    position: relative;
+}
+
+#page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: a;
+    padding: 0 10vw;
+    color: white;
+}
+
+#page2>h2 {
+    font-size: 1vw;
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+
+#page2>h1 {
+    width: 90%;
+    font-size: 3.4vw;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #dadada69;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: burlywood;
+}
+
+#page3 canvas {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page4 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1137ca;
+}
+
+#page4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: a;
+    padding: 0 10vw;
+    color: white;
+}
+
+#page4>h2 {
+    font-size: 1vw;
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+
+#page4>h1 {
+    width: 90%;
+    font-size: 3.4vw;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #dadada69;
+}
+
+#page4 h3 {
+    height: 10px;
+    position: absolute;
+    top: 13%;
+    margin-bottom: 3vw;
+}
+
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page5 canvas {
+    height: 100vh;
+    width: 100vw;
+}
+
+#page6 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: a;
+    padding: 0 10vw;
+    color: white;
+}
+
+#page6>h2 {
+    font-size: 1vw;
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+
+#page6>h1 {
+    width: 90%;
+    font-size: 3.4vw;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #dadada69;
+}
+
+#page6 h3 {
+    height: 10px;
+    position: absolute;
+    top: 5%;
+    margin-bottom: 3vw;
+    
+}
+
+#page7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#1137ca;
+}
+
+#page7>canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#page7-cir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 20vw;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+
+#page7-cir-inner {
+    height: 70%;
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 100%;
+    
+}
+
+#page8 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #0a3cce;
+}
+
+#page8 video {
+    margin-left: 10%;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+
+#page8 #page8-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 14%;
+    left: 29%;
+    width: 40vw;
+    height: 28vh;
+    /* border: 2px solid black; */
+}
+
+#page8-bottom h1 {
+    font-family: a;
+    font-weight: 100;
+    color: rgba(247, 237, 237, 0.911);
+    font-size: 5.5vw;
+}
+
+#page8-bottom button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: c;
+    color: #0a3cce;
+    padding: 1.2vw 1.3vw;
+    height: 1vh;
+    width: 8vw;
+    border-radius: 100px;
+    margin-top: 1.9vh;
+    border: none;
+    font-size: 15px;
+}
+
+#page9 {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+
+#page9 #left9 {
+    height: 100vh;
+    width: 40%;
+    transform: translate(30%,30%);
+    font-family: a;
+}
+
+#left9 h1 {
+    color: white;
+    font-size: 6vw;
+    font-family: a;
+    font-weight: 100;
+    line-height: 1.1;
+}
+
+#right9 {
+    position: relative;
+    height: 100vh;
+    width: 60%;
+    /* background-color: burlywood; */
+}
+
+#right9-inner {
+    position: absolute;
+    height: 60vh;
+    width: 45vw;
+    transform: translate(-1%,35%);
+    background-size: cover;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+}
+
+#page10 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+}
+
+#page10 #left10 {
+    height: 100vh;
+    width: 40%;
+    position: relative;
+} 
+
+#right10 {
+    position: relative;
+    height: 100vh;
+    width: 60%;
+    font-family: a;
+    color: white;
+    top: 10%;
+}
+
+.right10-inner h1 {
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+
+.right10-inner p {
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.788);
+    margin-bottom: 8vh;
+}
+
+#page11 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    font-family: a;
+}
+
+#page11>h1 {
+    position: relative;
+    top: 10%;
+    left: 9%;
+    font-size: 5.5vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+
+.page11-inner {
+    display: flex;
+    align-items: center;
+    top: 15%;
+    position: relative;
+    margin-bottom: 6vh;
+    /* border: 2px solid; */
+}
+
+.left11 {
+    height: 26vh;
+    width: 50%;
+    /* overflow: hidden; */
+}
+
+.left11>img:hover {
+    scale: 1.05;
+    border: 3px solid black;
+}
+
+.page11-inner .left11 img {
+    height: 29vh;
+    width: 70%;
+    transform: translateX(26%);
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+.page11-inner .right11 h4 {
+    font-weight: 100;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+
+.page11-inner .right11 h1 {
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+
+#page12 {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: white;
+    font-family: a;
+    overflow: hidden;
+}
+
+#page12>.page11-inner {
+    top: 0;
+    position: relative;
+    z-index: 2;
+}
+
+#page12-inner {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    height: 15px;
+    width: 100%;
+    z-index: 1;
+    /* border: 1px solid; */
+}
+
+#page11-bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 1vw;
+    width: 100%;
+    z-index: 3;
+}
+
+
+#page13 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #02268e;
+}
+
+#page13-inner {
+    position: relative;
+    left: 52%;
+    top: 20%;
+    font-family: a;
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: 100;
+}
+
+#page13-inner>h1 {
+    font-size: 5.8vw;
+    margin-bottom: 1vw;
+    font-weight: 100;
+}
+
+#page13-inner>h3 {
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+#page14 {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(19, 17, 17, 0.959);
+    color: white;
+    font-family: a;
+}
+
+#page14-inner {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    top: 20%;
+    left: 10%;
+}
+
+#page14-inner>h1 {
+    font-weight: 100;
+    font-size: 6.2vw;
+    line-height: 1;
+    margin-bottom: 4vw;
+}
+
+#page14-inner>button {
+    font-family: a;
+    font-size: 1.1vw;
+    background-color: #0a3cce;
+    border: none;
+    color: white;
+    border-radius: 90px;
+    padding: 0.8vw 1.6vw;
+    position: relative; /* For positioning pseudo-elements */
+    overflow: hidden; /* Ensure pseudo-elements are clipped within the button */
+    cursor: pointer;
+    text-transform: uppercase; /* Optional: make text uppercase for better visibility */
+    display: flex; /* For centering text */
+    justify-content: center;
+    align-items: center;
+}
+
+#page14-inner>button span {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.5s ease; /* Smooth movement of text */
+    z-index: 2; /* Ensure text is above the background */
+}
+
+
+#page14-inner>button::after {
+    content: "BOOK A DEMO"; /* Duplicate button text (blue version) */
+    position: absolute;
+    top: -100%; /* Start above the button */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #0a3cce; /* Blue text color */
+    background: transparent; /* Ensure no background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out; /* Smooth upward movement */
+    z-index: 1; /* Ensure it sits behind the white text */
+}
+
+#page14-inner>button:hover span {
+    transform: translateY(100%); /* White text moves down */
+}
+
+#page14-inner>button:hover::after {
+    transform: translateY(+100%); /* Blue text moves down */
+}
+
+#page14-inner>button:hover {
+    background-color: white; /* Button background changes to white */
+}
+
+#page14-inner>button::before {
+    content: "";
+    position: absolute;
+    top: 100%; /* Start just below the button */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    transition: transform 0.5s; /* Smooth transition for the "sheet" */
+    transition-timing-function: cubic-bezier(0.3, 0.7, 0.3, 1);
+    transform: translateY(0);
+}
+
+#page14-inner>button:hover::before {
+    transform: translateY(-100%); /* Slide the white "sheet" upwards */
+}
+
+
+#page15 {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color:  rgba(19, 17, 17, 0.959);
+}
+
+.page15-inner {
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 33.3%;
+    width: 100%;
+    padding: 0 6vw;
+    border-top: 1px solid #ffffff21;
+    font-family: a;
+}
+
+.page15-inner>i {
+    font-weight: 100;
+    font-size: 3vw;
+    color: white;
+    z-index: 2;
+}
+
+.page15-inner>h1 {
+    font-size: 2.3vw;
+    font-weight: 100;
+    /* border: 2px solid; */
+    margin-left: 4vw;
+    z-index: 2;
+}
+
+.page15-inner .center15 {
+    position: absolute;
+    background-color:#0a3cce;
+    height: 0%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s linear;
+}
+
+.page15-inner:hover {
+    .center15 {
+        height: 100%;
+    }
+}

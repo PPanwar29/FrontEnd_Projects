@@ -64,7 +64,7 @@ html, body {
     gap: 1vw;;
 }
 
-#right-nav button {
+#right-nav>button {
     font-size: 1vw;
     padding: .6vw 1.6vw;
     background-color: #0b48ed;
@@ -92,6 +92,7 @@ html, body {
     display: flex;
     position: absolute;
     justify-content: space-between;
+    align-items: center;
     margin-top: 2.5vw;
 }
 
@@ -104,11 +105,12 @@ html, body {
 }
 
 #bottom-page1-inner button {
+    height: 3.6vw;
     font-family: c;
-    font-size: 1vw;
+    font-size: 12px;
     color: #0b48ed;
     border-radius: 50px;
-    padding: .6vw 2vw;
+    padding: 0 2vw;
     border: none;
 }
 
@@ -298,6 +300,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     position: absolute;
     bottom: 14%;
     left: 29%;
@@ -319,13 +322,13 @@ html, body {
     justify-content: center;
     font-family: c;
     color: #0a3cce;
-    padding: 1.2vw 1.3vw;
-    height: 1vh;
-    width: 8vw;
+    padding: 2vw 1vw;
+    height: 3vw;
+    width: 10vw;
     border-radius: 100px;
     margin-top: 1.9vh;
     border: none;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #page9 {
